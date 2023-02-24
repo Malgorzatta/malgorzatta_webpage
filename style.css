@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-$font-text: "Raleway", sans-serif;
-$font-header: "Raleway", sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+$font-text: 'Raleway', sans-serif;
+$font-header: 'Raleway', sans-serif;
 $color-main: #00b894;
 $color-background: #f0f3f3;
 $color-text: #444444;
