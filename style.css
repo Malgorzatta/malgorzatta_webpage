@@ -81,7 +81,7 @@ section {
   background-color: #b2bec3;
   color: #ffffff;
   box-shadow: 2px 4px 10px #fdcb6e;
-  transition: $transition;
+  transition: all 0.1s;
 }
 
 .btn:hover {
@@ -200,12 +200,12 @@ section {
 }
 .contact {
   text-align: center;
-  transition: $transition;
+  transition: all 0.1s;
 }
 .social links {
   list-style-type: none;
   padding: 0;
-  transition: $transition;
+  transition: all 0.1s;
 }
 .social-links li {
   display: inline-block;
@@ -215,7 +215,7 @@ section {
   line-height: 30px;
   border-radius: 50%;
   margin-right: 20px;
-  transition: $transition;
+  transition: all 0.1s;
 }
 .social-links li:hover {
   background: #00b894;
