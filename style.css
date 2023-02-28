@@ -198,40 +198,48 @@ section {
 .gallery-item:hover:before, .gallery-item:hover figcaption {
   display: block;
 }
+
 .contact {
   text-align: center;
-  transition: all 0.1s;
 }
+
 .social-links {
   list-style-type: none;
   padding: 0;
-  transition: all 0.1s;
+
 }
+
 .social-links li {
   display: inline-block;
   border: 1px solid #00b894;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  font-size: 30px;
   border-radius: 50%;
+  font-size: 30px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
   margin-right: 20px;
-  transition: all 0.1s;
+  padding-top: 7px;
+  box-sizing: border-box;
+
+  
 }
+
 .social-links li:hover {
   background: #00b894;
 }
+
 .social-links li a {
   display: block;
   width: 100%;
   height: 100%;
 }
+
 .social-links li a:hover {
   color: #ffffff;
 }
 
 .page-footer {
-  background: darken(#f0f3f3, 3%);
+  background: #f0f3f3;
   padding: 12px 0;
   font-size: 12px;
   color: #000000;
@@ -244,7 +252,7 @@ section {
   margin: 0;
 }
 .navigation {
-  background: #dfe6e9;
+    background: #dfe6e9;
   padding: 12px 0;
   text-align: center;
 }
